@@ -1,1229 +1,1000 @@
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#030711">
-
-<title>REWAVE — Every Drop Deserves Another Purpose</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- NAVIGATION -->
-
-<header class="navbar">
-
-<a href="#home" class="logo">
-<span class="logo-symbol">◈</span> REWAVE
-</a>
-
-<nav>
-<a href="#home">Home</a>
-<a href="#why">Why REWAVE</a>
-<a href="#technology">Technology</a>
-<a href="#monitor">Smart Monitor</a>
-<a href="#calculator">Calculator</a>
-<a href="#budget">Budget</a>
-<a href="#impact">Impact</a>
-</nav>
-
-<a href="#technology" class="nav-button">
-EXPLORE SYSTEM ↗
-</a>
-
-</header>
-
-
-<!-- HERO SECTION -->
-
-<section class="hero" id="home">
-
-<div class="hero-background"></div>
-
-<!-- Animated water droplets -->
-
-<div class="droplets">
-<span class="droplet d1"></span>
-<span class="droplet d2"></span>
-<span class="droplet d3"></span>
-<span class="droplet d4"></span>
-<span class="droplet d5"></span>
-<span class="droplet d6"></span>
-<span class="droplet d7"></span>
-<span class="droplet d8"></span>
-<span class="droplet d9"></span>
-<span class="droplet d10"></span>
-<span class="droplet d11"></span>
-<span class="droplet d12"></span>
-</div>
-
-<!-- Glowing particles -->
-
-<div class="particles">
-<span></span><span></span><span></span>
-<span></span><span></span><span></span>
-<span></span><span></span><span></span>
-<span></span><span></span><span></span>
-</div>
-
-<div class="hero-layout">
-
-<div class="hero-content">
-
-<div class="eyebrow">
-<span class="pulse-dot"></span>
-STUDENT INNOVATION PROJECT · SDG 06
-</div>
-
-<h1 class="hero-title">
-REWAVE<span class="title-drop">💧</span>
-</h1>
-
-<h2>
-Every Drop Deserves<br>
-<span>Another Purpose.</span>
-</h2>
-
-<p class="hero-description">
-REWAVE is a proposed water-reuse system that collects lightly
-used water from washbasins and showers, treats it through
-suitable filtration and quality checks, and redirects it
-towards approved non-drinking applications.
-</p>
-
-<div class="hero-buttons">
-
-<a href="#technology" class="primary-button">
-EXPLORE THE TECHNOLOGY ↗
-</a>
-
-<a href="#monitor" class="secondary-button">
-VIEW SMART MONITOR
-</a>
-
-</div>
-
-<div class="hero-tags">
-<span>◈ COLLEGE CAMPUSES</span>
-<span>◈ HOSTELS</span>
-<span>◈ LOCAL COMMUNITIES</span>
-</div>
-
-</div>
-
-
-<!-- ANIMATED WATER GRAPHIC -->
-
-<div class="water-universe">
-
-<div class="water-glow"></div>
-
-<div class="water-ring ring1"></div>
-<div class="water-ring ring2"></div>
-<div class="water-ring ring3"></div>
-<div class="water-ring ring4"></div>
-
-<div class="orbit-dot orbit-dot1"></div>
-<div class="orbit-dot orbit-dot2"></div>
-
-<div class="main-water-drop">
-<svg viewBox="0 0 200 260" aria-label="Glowing water drop">
-<defs>
-<linearGradient id="dropGradient" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#d7ffff"/>
-<stop offset="35%" stop-color="#32eaff"/>
-<stop offset="70%" stop-color="#087eff"/>
-<stop offset="100%" stop-color="#07349b"/>
-</linearGradient>
-</defs>
-
-<path d="M100 8 C82 47 23 109 23 159 A77 77 0 0 0 177 159 C177 109 118 47 100 8Z"
-fill="url(#dropGradient)"/>
-
-<path d="M70 102 Q45 145 55 177"
-fill="none"
-stroke="#ffffff"
-stroke-width="8"
-stroke-linecap="round"
-opacity=".55"/>
-</svg>
-</div>
-
-<div class="floating-info info1">
-● SMART WATER RECOVERY
-</div>
-
-<div class="floating-info info2">
-◈ CIRCULAR WATER SYSTEM
-</div>
-
-<div class="floating-info info3">
-SDG 06
-</div>
-
-</div>
-
-</div>
-
-
-<!-- MOVING WATER FLOW -->
-
-<div class="hero-flow">
-
-<div class="flow-stage">
-<small>STAGE 01</small>
-<strong>COLLECT</strong>
-</div>
-
-<div class="flow-arrow">➜</div>
-
-<div class="flow-stage">
-<small>STAGE 02</small>
-<strong>FILTER</strong>
-</div>
-
-<div class="flow-arrow">➜</div>
-
-<div class="flow-stage">
-<small>STAGE 03</small>
-<strong>CHECK</strong>
-</div>
-
-<div class="flow-arrow">➜</div>
-
-<div class="flow-stage">
-<small>STAGE 04</small>
-<strong>REUSE</strong>
-</div>
-
-</div>
-
-<div class="hero-water-bottom">
-<div class="wave wave1"></div>
-<div class="wave wave2"></div>
-</div>
-
-</section>
-
-
-<!-- WHY REWAVE -->
-
-<section class="section" id="why">
-
-<div class="section-heading">
-
-<span class="section-number">01 / THE OPPORTUNITY</span>
-
-<h2>WHY <span>REWAVE?</span></h2>
-
-<p>
-Rethinking water consumption through responsible recovery,
-resource efficiency and local innovation.
-</p>
-
-</div>
-
-<div class="feature-grid">
-
-<article class="feature-card feature-blue">
-<div class="feature-icon">💧</div>
-<div class="feature-index">01</div>
-<h3>Freshwater Conservation</h3>
-<p>
-Explore reducing freshwater demand by using appropriately
-treated water for suitable non-potable applications.
-</p>
-<div class="feature-line"></div>
-</article>
-
-<article class="feature-card feature-green">
-<div class="feature-icon">♻️</div>
-<div class="feature-index">02</div>
-<h3>Reduced Wastage</h3>
-<p>
-Investigate how recoverable lightly used water can be
-redirected towards another useful purpose.
-</p>
-<div class="feature-line"></div>
-</article>
-
-<article class="feature-card feature-yellow">
-<div class="feature-icon">⚙️</div>
-<div class="feature-index">03</div>
-<h3>Practical Maintenance</h3>
-<p>
-Consider filter accessibility, inspection, appropriate
-testing and ongoing operational requirements.
-</p>
-<div class="feature-line"></div>
-</article>
-
-<article class="feature-card feature-cyan">
-<div class="feature-icon">🏙️</div>
-<div class="feature-index">04</div>
-<h3>Local Implementation</h3>
-<p>
-A modular concept that can be evaluated for college
-campuses, hostels and local communities.
-</p>
-<div class="feature-line"></div>
-</article>
-
-</div>
-
-</section>
-
-
-<!-- HOW IT WORKS -->
-
-<section class="section technology-section" id="technology">
-
-<div class="section-heading">
-
-<span class="section-number">02 / SYSTEM ARCHITECTURE</span>
-
-<h2>THE WATER <span>JOURNEY.</span></h2>
-
-<p>
-Four interconnected stages designed around responsible
-collection, treatment, checking and reuse.
-</p>
-
-</div>
-
-
-<div class="process-grid">
-
-<div class="process-card">
-
-<div class="process-number">01</div>
-
-<div class="process-icon">🚿</div>
-
-<h3>COLLECT</h3>
-
-<p>
-Separate plumbing collects lightly used washbasin
-and shower water.
-</p>
-
-<div class="process-bottom">GREYWATER COLLECTION</div>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="process-number">02</div>
-
-<div class="process-icon">🧰</div>
-
-<h3>FILTER</h3>
-
-<p>
-Screening and suitable filtration media remove
-particles as part of the treatment process.
-</p>
-
-<div class="process-bottom">SUITABLE TREATMENT</div>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="process-number">03</div>
-
-<div class="process-icon">📡</div>
-
-<h3>CHECK</h3>
-
-<p>
-Sensors and appropriate water-quality tests help
-determine whether further treatment is needed.
-</p>
-
-<div class="process-bottom">QUALITY ASSESSMENT</div>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="process-number">04</div>
-
-<div class="process-icon">🌱</div>
-
-<h3>REUSE</h3>
-
-<p>
-Suitable treated water is stored separately
-for approved non-potable applications.
-</p>
-
-<div class="process-bottom">RESPONSIBLE REUSE</div>
-
-</div>
-
-</div>
-
-
-<!-- ANIMATED SYSTEM DIAGRAM -->
-
-<div class="system-panel">
-
-<div class="panel-header">
-
-<div>
-<span class="section-number">SYSTEM VISUALISATION</span>
-<h3>REWAVE FLOW ENGINE</h3>
-</div>
-
-<span class="demo-label">
-● CONCEPTUAL ANIMATION
-</span>
-
-</div>
-
-
-<div class="system-diagram">
-
-<div class="system-node">
-
-<div class="node-symbol">🚿</div>
-
-<strong>GREYWATER</strong>
-
-<small>Separate inlet</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">🛢️</div>
-
-<strong>COLLECTION TANK</strong>
-
-<small>Temporary storage</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">🧰</div>
-
-<strong>TREATMENT</strong>
-
-<small>Suitable processes</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">📟</div>
-
-<strong>QUALITY CHECK</strong>
-
-<small>Test or divert</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">🌿</div>
-
-<strong>REUSE OUTLET</strong>
-
-<small>Approved uses</small>
-
-</div>
-
-</div>
-
-
-<div class="diagram-footer">
-
-<span>● WATER FLOW VISUALISATION</span>
-
-<span>CONCEPTUAL DESIGN · NOT MEASURED PERFORMANCE</span>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- SMART MONITOR -->
-
-<section class="section" id="monitor">
-
-<div class="section-heading">
-
-<span class="section-number">03 / INTERACTIVE DEMONSTRATION</span>
-
-<h2>REWAVE <span>SMART MONITOR.</span></h2>
-
-<p>
-A visual demonstration of a proposed water-monitoring interface.
-All displayed readings are simulated, not live sensor data.
-</p>
-
-</div>
-
-
-<div class="monitor-banner">
-
-<div>
-<span class="pulse-dot"></span>
-SIMULATION DASHBOARD
-</div>
-
-<span class="demo-label">
-SIMULATED DATA · NOT LIVE
-</span>
-
-</div>
-
-
-<div class="monitor-grid">
-
-
-<!-- QUALITY STATUS -->
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ QUALITY STATUS</span>
-
-<span class="tiny-tag">DEMO</span>
-
-</div>
-
-<p class="muted">
-Illustrative alert indicators. Colour does not certify water safety.
-</p>
-
-
-<div class="quality-status">
-
-<label class="quality-option green-status">
-<input type="radio" name="quality" checked>
-<span>● GREEN</span>
-</label>
-
-<label class="quality-option yellow-status">
-<input type="radio" name="quality">
-<span>● YELLOW</span>
-</label>
-
-<label class="quality-option red-status">
-<input type="radio" name="quality">
-<span>● RED</span>
-</label>
-
-</div>
-
-
-<div class="sensor-reading">
-
-<small>EXAMPLE TURBIDITY READING</small>
-
-<div class="large-reading">
-2.5 <span>NTU</span>
-</div>
-
-</div>
-
-<label class="input-label" for="turbidity">
-Explore simulated turbidity
-</label>
-
-<input type="range" id="turbidity" min="0" max="20" value="2.5" step="0.1">
-
-<div class="scale-labels">
-<span>0 NTU</span>
-<span>20 NTU</span>
-</div>
-
-<div class="dashboard-message">
-The example value above is fixed. The slider is a visual-only HTML/CSS control.
-</div>
-
-</div>
-
-
-<!-- TANK LEVEL -->
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ STORAGE MONITOR</span>
-
-<span class="tiny-tag">SIMULATED</span>
-
-</div>
-
-<p class="muted">
-Animated conceptual tank-level indicator.
-</p>
-
-
-<div class="tank-container">
-
-<div class="tank">
-
-<div class="tank-water">
-
-<div class="tank-wave"></div>
-
-<div class="water-bubbles">
-<i></i><i></i><i></i><i></i><i></i>
-</div>
-
-</div>
-
-<div class="tank-markings">
-<span>100%</span>
-<span>75%</span>
-<span>50%</span>
-<span>25%</span>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="tank-reading">
-64<span>%</span>
-</div>
-
-<p class="tank-caption">ILLUSTRATIVE STORAGE LEVEL</p>
-
-<div class="tank-status">
-● SIMULATED STORAGE VISUAL
-</div>
-
-</div>
-
-
-<!-- FILTER MAINTENANCE -->
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ FILTER HEALTH</span>
-
-<span class="tiny-tag">SIMULATED</span>
-
-</div>
-
-<p class="muted">
-Example maintenance tracking interface.
-</p>
-
-<div class="filter-animation">
-<div class="filter-outer">
-<div class="filter-inner">⚙</div>
-</div>
-</div>
-
-<div class="filter-reading">
-
-<strong>190</strong>
-
-<span>EXAMPLE OPERATING HOURS</span>
-
-</div>
-
-<div class="filter-progress">
-<div></div>
-</div>
-
-<div class="maintenance-alert">
-
-<span>⚠</span>
-
-<div>
-<strong>MAINTENANCE REMINDER</strong>
-<p>Regular inspection and replacement schedules are required.</p>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="monitor-disclaimer">
-
-<strong>IMPORTANT:</strong>
-The green, yellow and red controls are an interface demonstration only.
-Turbidity alone cannot establish microbiological safety or suitability
-for reuse. Actual monitoring requires appropriate treatment, testing
-and validated operating procedures.
-
-</div>
-
-</section>
-
-
-<!-- WATER CALCULATOR -->
-
-<section class="section calculator-section" id="calculator">
-
-<div class="section-heading">
-
-<span class="section-number">04 / RESOURCE MODELLING</span>
-
-<h2>WATER-SAVING <span>CALCULATOR.</span></h2>
-
-<p>
-An illustrative planning interface for estimating recoverable
-water using collection and treatment assumptions.
-</p>
-
-</div>
-
-
-<div class="calculator-grid">
-
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ INPUT PARAMETERS</span>
-
-<span class="tiny-tag">EDITABLE</span>
-
-</div>
-
-
-<div class="input-group">
-
-<label for="daily-water">AVAILABLE GREYWATER (L/DAY)</label>
-
-<input type="number" id="daily-water" value="12000" min="0">
-
-</div>
-
-
-<div class="input-group">
-
-<label for="efficiency">COLLECTION EFFICIENCY (%)</label>
-
-<input type="number" id="efficiency" value="80" min="0" max="100">
-
-</div>
-
-
-<div class="input-group">
-
-<label for="recovery">TREATMENT RECOVERY (%)</label>
-
-<input type="number" id="recovery" value="75" min="0" max="100">
-
-</div>
-
-
-<div class="input-group">
-
-<label for="days">OPERATING DAYS PER YEAR</label>
-
-<input type="number" id="days" value="300" min="1" max="366">
-
-</div>
-
-<div class="calculator-note">
-Editable planning inputs. Automatic recalculation requires JavaScript
-or a backend.
-</div>
-
-</div>
-
-
-<!-- RESULTS -->
-
-<div class="dashboard-card result-card">
-
-<div class="card-heading">
-
-<span>◈ EXAMPLE OUTPUT</span>
-
-<span class="tiny-tag">ILLUSTRATIVE</span>
-
-</div>
-
-
-<div class="result-box">
-
-<span>ESTIMATED DAILY RECOVERABLE WATER</span>
-
-<strong>7,200 <small>L</small></strong>
-
-</div>
-
-
-<div class="result-box">
-
-<span>ESTIMATED ANNUAL RECOVERABLE WATER</span>
-
-<strong>21,60,000 <small>L</small></strong>
-
-</div>
-
-
-<div class="result-box">
-
-<span>ANNUAL VOLUME</span>
-
-<strong>2,160 <small>m³</small></strong>
-
-</div>
-
-
-<div class="formula-box">
-
-DAILY RECOVERY = AVAILABLE WATER × COLLECTION EFFICIENCY × TREATMENT RECOVERY
-
-</div>
-
-<p class="muted">
-These example outputs use the original displayed assumptions:
-12,000 L/day × 80% × 75%, over 300 operating days.
-They do not automatically change when the inputs are edited.
-</p>
-
-</div>
-
-</div>
-
-
-<!-- ALLOCATION -->
-
-<div class="allocation-panel">
-
-<div class="panel-header">
-
-<div>
-<span class="section-number">ALLOCATION PLANNING</span>
-<h3>WHERE COULD RECOVERED WATER GO?</h3>
-</div>
-
-<span class="demo-label">EXAMPLE ALLOCATION</span>
-
-</div>
-
-
-<div class="allocation-grid">
-
-
-<div class="allocation-card">
-
-<div class="allocation-icon">🌱</div>
-
-<h4>IRRIGATION</h4>
-
-<div class="allocation-value">35%</div>
-
-<p>2,520 L/day</p>
-
-<div class="mini-progress">
-<div style="width:35%;background:#A5FF38"></div>
-</div>
-
-</div>
-
-
-<div class="allocation-card">
-
-<div class="allocation-icon">🚽</div>
-
-<h4>TOILET FLUSHING</h4>
-
-<div class="allocation-value">50%</div>
-
-<p>3,600 L/day</p>
-
-<div class="mini-progress">
-<div style="width:50%;background:#147BFF"></div>
-</div>
-
-</div>
-
-
-<div class="allocation-card">
-
-<div class="allocation-icon">🔄</div>
-
-<h4>OTHER APPROVED USES</h4>
-
-<div class="allocation-value">15%</div>
-
-<p>1,080 L/day</p>
-
-<div class="mini-progress">
-<div style="width:15%;background:#FFE451"></div>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="allocation-visual">
-
-<div class="allocation-green"></div>
-<div class="allocation-blue"></div>
-<div class="allocation-yellow"></div>
-
-</div>
-
-<p class="muted">
-Example allocation only. Permissible applications depend on treatment
-requirements, local standards and site-specific assessment.
-</p>
-
-</div>
-
-</section>
-
-
-<!-- BUDGET PLANNER -->
-
-<section class="section" id="budget">
-
-<div class="section-heading">
-
-<span class="section-number">05 / FINANCIAL PLANNING</span>
-
-<h2>REWAVE <span>BUDGET PLANNER.</span></h2>
-
-<p>
-Editable preliminary cost assumptions against an illustrative
-₹30 lakh planning cap.
-</p>
-
-</div>
-
-
-<div class="budget-grid">
-
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ COST ESTIMATOR</span>
-
-<span class="tiny-tag">PRELIMINARY</span>
-
-</div>
-
-
-<div class="budget-input-grid">
-
-<div class="input-group">
-<label>SEPARATE PLUMBING</label>
-<input type="number" value="500000" min="0">
-</div>
-
-<div class="input-group">
-<label>COLLECTION & STORAGE TANKS</label>
-<input type="number" value="420000" min="0">
-</div>
-
-<div class="input-group">
-<label>FILTERS & TREATMENT</label>
-<input type="number" value="560000" min="0">
-</div>
-
-<div class="input-group">
-<label>SENSORS</label>
-<input type="number" value="170000" min="0">
-</div>
-
-<div class="input-group">
-<label>CONTROLLERS & DISPLAY</label>
-<input type="number" value="140000" min="0">
-</div>
-
-<div class="input-group">
-<label>INSTALLATION</label>
-<input type="number" value="390000" min="0">
-</div>
-
-<div class="input-group">
-<label>WATER TESTING</label>
-<input type="number" value="210000" min="0">
-</div>
-
-<div class="input-group">
-<label>INITIAL MAINTENANCE</label>
-<input type="number" value="180000" min="0">
-</div>
-
-<div class="input-group">
-<label>CONTINGENCY</label>
-<input type="number" value="250000" min="0">
-</div>
-
-</div>
-
-<p class="muted">
-All amounts are editable illustrative estimates in Indian rupees.
-The summary shows the initial example scenario.
-</p>
-
-</div>
-
-
-<!-- BUDGET SUMMARY -->
-
-<div class="dashboard-card budget-summary">
-
-<span class="section-number">ILLUSTRATIVE PLANNING CAP</span>
-
-<h2>₹30,00,000</h2>
-
-
-<div class="budget-stat">
-
-<span>EXAMPLE ESTIMATED TOTAL</span>
-
-<strong>₹28,20,000</strong>
-
-</div>
-
-
-<div class="budget-stat">
-
-<span>EXAMPLE REMAINING AMOUNT</span>
-
-<strong class="green-text">₹1,80,000</strong>
-
-</div>
-
-
-<div class="budget-progress">
-
-<div></div>
-
-</div>
-
-
-<div class="budget-indicator">
-94% OF ILLUSTRATIVE PLANNING CAP
-</div>
-
-
-<div class="budget-success">
-✓ The initial example scenario is within the illustrative cap.
-</div>
-
-
-<p class="muted">
-These figures are preliminary placeholders, not vendor quotations.
-Editing the cost fields does not automatically update the displayed
-total in this HTML/CSS-only version.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- SCALE UP -->
-
-<section class="section" id="impact">
-
-<div class="section-heading">
-
-<span class="section-number">06 / FUTURE VISION</span>
-
-<h2>START SMALL. <span>THINK BIG.</span></h2>
-
-<p>
-A potential progression following successful technical validation,
-appropriate treatment, monitoring and necessary approvals.
-</p>
-
-</div>
-
-
-<div class="scale-grid">
-
-
-<div class="scale-card">
-
-<span class="scale-number">01</span>
-
-<div class="scale-icon">🏠</div>
-
-<h3>ONE HOSTEL</h3>
-
-<p>Assess demand and investigate pilot feasibility.</p>
-
-</div>
-
-
-<div class="scale-card">
-
-<span class="scale-number">02</span>
-
-<div class="scale-icon">🏫</div>
-
-<h3>ONE CAMPUS</h3>
-
-<p>Explore expansion across multiple campus buildings.</p>
-
-</div>
-
-
-<div class="scale-card">
-
-<span class="scale-number">03</span>
-
-<div class="scale-icon">🏢</div>
-
-<h3>MULTIPLE CAMPUSES</h3>
-
-<p>Investigate replication of validated modules.</p>
-
-</div>
-
-
-<div class="scale-card">
-
-<span class="scale-number">04</span>
-
-<div class="scale-icon">🌍</div>
-
-<h3>LOCAL COMMUNITIES</h3>
-
-<p>Consider context-specific implementation partnerships.</p>
-
-</div>
-
-</div>
-
-
-<!-- SDG 6 BANNER -->
-
-<div class="sdg-banner">
-
-<div class="sdg-icon">
-<span>06</span>
-<small>CLEAN WATER<br>AND SANITATION</small>
-</div>
-
-<div class="sdg-content">
-
-<span class="section-number">UNITED NATIONS SUSTAINABLE DEVELOPMENT GOAL 6</span>
-
-<h2>CLEAN WATER.<br>STRONGER COMMUNITIES.</h2>
-
-<p>
-REWAVE explores responsible water reuse, resource efficiency,
-transparent monitoring and locally appropriate sustainability.
-</p>
-
-</div>
-
-<div class="sdg-decoration">💧</div>
-
-</div>
-
-
-<!-- SAFETY NOTICE -->
-
-<div class="safety-notice">
-
-<h3>⚠ WATER SAFETY & VALIDATION</h3>
-
-<p>
-Basic filtration alone cannot guarantee microbiological safety.
-Recovered water must receive appropriate treatment and testing
-for its intended reuse. Unsuitable water must be diverted rather
-than reused, and non-potable plumbing must remain separate from
-drinking-water systems. REWAVE is a student innovation concept,
-not a certified treatment system.
-</p>
-
-</div>
-
-</section>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-<div class="footer-logo">◈ REWAVE</div>
-
-<h3>EVERY DROP DESERVES ANOTHER PURPOSE.</h3>
-
-<p>
-A student innovation concept aligned with SDG 6.
-</p>
-
-<div class="footer-links">
-
-<a href="#home">HOME</a>
-<a href="#technology">TECHNOLOGY</a>
-<a href="#monitor">MONITOR</a>
-<a href="#calculator">CALCULATOR</a>
-<a href="#budget">BUDGET</a>
-
-</div>
-
-<small>
-All sensor readings, financial estimates and performance figures
-are illustrative and not measured results.
-</small>
-
-</footer>
-
-</body>
-</html>
+:root {
+  --bg: #030711;
+  --navy: #071426;
+  --blue: #147bff;
+  --darkblue: #1255c4;
+  --cyan: #23e9ff;
+  --green: #a5ff38;
+  --yellow: #ffe451;
+  --red: #ff536d;
+  --white: #f1faff;
+  --muted: #9ab6cb;
+  --border: #20506b;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--white);
+  font-family: Outfit, sans-serif;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 90% 15%, #10549b30, transparent 35%),
+    radial-gradient(circle at 10% 75%, #0c6e6630, transparent 35%);
+}
+
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+h1, h2, h3 { letter-spacing: -.045em; }
+p { line-height: 1.65; }
+section { scroll-margin-top: 80px; }
+
+::selection { background: var(--cyan); color: var(--bg); }
+
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: var(--bg);
+  transition: opacity .55s, visibility .55s;
+}
+
+#loader.hidden { opacity: 0; visibility: hidden; }
+
+.loader-drop {
+  font-size: 65px;
+  color: var(--cyan);
+  filter: drop-shadow(0 0 22px var(--cyan));
+  animation: float 1.3s infinite ease-in-out;
+}
+
+#loader strong { font-size: 35px; letter-spacing: 5px; }
+#loader small { color: var(--green); letter-spacing: 3px; font-size: 10px; }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 76px;
+  padding: 12px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: #030711ed;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid #17415c;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 26px;
+  letter-spacing: -1.5px;
+  white-space: nowrap;
+}
+
+.logo span { color: var(--cyan); text-shadow: 0 0 20px var(--cyan); }
+
+.navbar nav {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.navbar nav a {
+  font-size: 12px;
+  font-weight: 700;
+  color: #b1c6d9;
+  transition: color .25s;
+}
+
+.navbar nav a:hover { color: var(--cyan); }
+
+.nav-cta, .btn.primary {
+  border: 0;
+  border-radius: 11px;
+  background: linear-gradient(110deg, var(--blue), var(--cyan));
+  color: #001522;
+  padding: 14px 19px;
+  font-size: 11px;
+  font-weight: 900;
+  box-shadow: 0 0 25px #147bff50;
+  transition: transform .25s, box-shadow .25s;
+  white-space: nowrap;
+}
+
+.nav-cta:hover, .btn.primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 35px #23e9ff70;
+}
+
+.menu-btn {
+  display: none;
+  background: #0a243b;
+  border: 1px solid var(--border);
+  color: var(--cyan);
+  border-radius: 9px;
+  padding: 8px 13px;
+  font-size: 23px;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  min-height: 790px;
+  overflow: hidden;
+  padding: 95px 6% 130px;
+  background:
+    radial-gradient(circle at 75% 43%, #0867c65a, transparent 38%),
+    linear-gradient(115deg, #081a31, #030711 70%);
+}
+
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(#23e9ff09 1px, transparent 1px),
+    linear-gradient(90deg, #23e9ff09 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: linear-gradient(#000, transparent);
+  pointer-events: none;
+}
+
+.hero-layout {
+  position: relative;
+  z-index: 2;
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.12fr .88fr;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero-content { animation: entrance 1s both; }
+
+.eyebrow, .kicker {
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.pulse {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 14px var(--green);
+  animation: pulse 1.5s infinite;
+}
+
+.hero h1 {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 18px;
+  font-size: clamp(65px, 10vw, 155px);
+  font-weight: 900;
+  line-height: .95;
+  letter-spacing: -.095em;
+  color: #1262df;
+  text-shadow: 0 0 28px #087cff80, 0 0 70px #087cff40;
+}
+
+.hero h1 span { color: #1255c4; }
+
+.title-drop {
+  width: .34em;
+  height: .48em;
+  margin-left: .12em;
+  overflow: visible;
+  filter: drop-shadow(0 0 16px var(--cyan));
+  animation: float 3s infinite ease-in-out;
+}
+
+.hero h2 {
+  font-size: clamp(30px, 3.5vw, 51px);
+  line-height: 1.13;
+  margin: 0;
+}
+
+.hero h2 em { color: var(--cyan); font-style: normal; }
+
+.hero-content > p {
+  max-width: 620px;
+  font-size: 16px;
+  color: #b5cfe2;
+  margin: 25px 0;
+}
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.btn { display: inline-block; }
+
+.btn.secondary {
+  border: 1px solid var(--cyan);
+  border-radius: 11px;
+  color: var(--cyan);
+  padding: 14px 19px;
+  font-size: 11px;
+  font-weight: 900;
+  transition: .25s;
+}
+
+.btn.secondary:hover {
+  background: #23e9ff18;
+  box-shadow: 0 0 20px #23e9ff35;
+}
+
+.hero-tags { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 33px; }
+
+.hero-tags span {
+  border: 1px solid #39714a;
+  background: #102b20;
+  color: var(--green);
+  padding: 9px 12px;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+/* WATER UNIVERSE */
+
+.water-universe {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+.water-glow {
+  position: absolute;
+  width: 65%;
+  height: 65%;
+  border-radius: 50%;
+  background: #009dff65;
+  filter: blur(75px);
+  animation: glow 4s infinite ease-in-out;
+}
+
+.water-ring {
+  position: absolute;
+  border: 2px solid #23e9ff75;
+  border-radius: 50%;
+  box-shadow: 0 0 24px #00bfff35, inset 0 0 25px #00bfff15;
+  animation: ripple 5s infinite ease-in-out;
+}
+
+.ring1 { width: 40%; height: 40%; }
+.ring2 { width: 60%; height: 60%; animation-delay: .5s; }
+.ring3 { width: 80%; height: 80%; animation-delay: 1s; }
+.ring4 {
+  width: 100%;
+  height: 100%;
+  border-style: dashed;
+  animation: rotate 30s linear infinite;
+}
+
+.main-drop {
+  position: relative;
+  z-index: 3;
+  width: 44%;
+  overflow: visible;
+  filter: drop-shadow(0 0 25px #00cfff) drop-shadow(0 0 55px #087cff);
+  animation: float 4s infinite ease-in-out;
+}
+
+.orbit-dot {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: var(--green);
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--green);
+  animation: float 3s infinite;
+}
+
+.dot1 { top: 11%; left: 35%; }
+.dot2 {
+  bottom: 23%;
+  right: 7%;
+  background: var(--yellow);
+  box-shadow: 0 0 20px var(--yellow);
+  animation-delay: 1s;
+}
+
+.floating-label {
+  position: absolute;
+  z-index: 4;
+  background: #071e35e8;
+  border: 1px solid var(--cyan);
+  color: var(--cyan);
+  padding: 11px 13px;
+  border-radius: 9px;
+  box-shadow: 0 0 22px #00cfff35;
+  font-size: 10px;
+  font-weight: 900;
+  animation: float 4s infinite ease-in-out;
+}
+
+.label1 { top: 12%; left: -3%; }
+.label2 { right: -4%; top: 44%; animation-delay: 1s; }
+.label3 { bottom: 11%; left: 10%; animation-delay: 2s; }
+
+.droplet-field { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+
+.droplet {
+  position: absolute;
+  top: -40px;
+  width: var(--size);
+  height: calc(var(--size) * 1.5);
+  background: linear-gradient(135deg, #e0ffff, #23e9ff, #0860ce);
+  border-radius: 70% 70% 80% 80%;
+  transform: rotate(45deg);
+  box-shadow: 0 0 15px #23e9ff;
+  animation: falling var(--duration) linear infinite;
+  animation-delay: var(--delay);
+}
+
+.hero-flow {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  flex-wrap: wrap;
+  max-width: 1050px;
+  margin: 65px auto 0;
+}
+
+.hero-flow > div {
+  min-width: 145px;
+  padding: 14px 19px;
+  border: 1px solid #2775a2;
+  border-radius: 12px;
+  background: #09233bdc;
+  box-shadow: 0 0 18px #00cfff25;
+}
+
+.hero-flow small { display: block; color: var(--cyan); font-size: 9px; margin-bottom: 5px; }
+.hero-flow strong { font-size: 15px; }
+
+.hero-flow i {
+  width: 39px;
+  height: 8px;
+  border-radius: 15px;
+  background: repeating-linear-gradient(90deg, #1262df 0 9px, #23e9ff 9px 18px);
+  background-size: 36px;
+  box-shadow: 0 0 15px var(--cyan);
+  animation: flow .7s linear infinite;
+}
+
+.hero-waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  overflow: hidden;
+  opacity: .55;
+}
+
+.hero-waves div {
+  position: absolute;
+  width: 200%;
+  height: 115px;
+  left: 0;
+  top: 15px;
+  border-radius: 45%;
+  background: #0864cb80;
+  animation: wave 8s linear infinite;
+}
+
+.hero-waves div + div {
+  top: 35px;
+  background: #23e9ff45;
+  animation-duration: 11s;
+  animation-direction: reverse;
+}
+
+/* GENERAL SECTIONS */
+
+.section { max-width: 1600px; padding: 90px 6%; margin: auto; }
+
+.section-heading { margin-bottom: 36px; }
+
+.section-heading h2 {
+  font-size: clamp(36px, 5vw, 66px);
+  font-weight: 900;
+  margin: 10px 0;
+}
+
+.section-heading h2 span { color: var(--cyan); }
+.section-heading p { color: var(--muted); max-width: 690px; margin: 0; }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity .7s, transform .7s;
+}
+
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+.feature-grid, .stage-grid, .scale-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.feature, .stage, .scale-card, .panel {
+  background: linear-gradient(145deg, #0c2039, #07111f);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+
+.feature, .stage, .scale-card {
+  position: relative;
+  overflow: hidden;
+  padding: 25px;
+  min-height: 235px;
+  transition: border-color .3s, box-shadow .3s, transform .3s, opacity .7s;
+}
+
+.feature:hover, .stage:hover, .scale-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--cyan);
+  box-shadow: 0 0 30px #00cfff25;
+}
+
+.feature::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: var(--accent);
+  box-shadow: 0 0 18px var(--accent);
+}
+
+.feature-icon {
+  font-size: 44px;
+  color: var(--accent);
+  text-shadow: 0 0 22px var(--accent);
+  margin-bottom: 23px;
+}
+
+.feature small, .stage small, .scale-card small {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.feature h3, .stage h3 { font-size: 21px; margin: 14px 0 9px; }
+.feature p, .stage p, .scale-card p { color: var(--muted); font-size: 13px; }
+
+.stage-icon {
+  display: grid;
+  place-items: center;
+  width: 67px;
+  height: 67px;
+  margin-top: 22px;
+  border: 1px solid #2c83ae;
+  border-radius: 16px;
+  color: var(--cyan);
+  font-size: 37px;
+  background: #0a2b46;
+  box-shadow: inset 0 0 25px #23e9ff15;
+}
+
+.panel { padding: 27px; min-width: 0; }
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-bottom: 18px;
+}
+
+.panel-header h3 { margin: 0; font-size: 18px; }
+
+.chip, .mini-chip {
+  border: 1px solid #327b59;
+  border-radius: 30px;
+  background: #102d20;
+  color: var(--green);
+  padding: 9px 12px;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.mini-chip {
+  border-radius: 7px;
+  border-color: #216e92;
+  background: #09253c;
+  color: var(--cyan);
+}
+
+.diagram-panel { margin-top: 24px; }
+
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 35px 0 20px;
+}
+
+.flow-node {
+  flex: 1;
+  min-width: 0;
+  padding: 20px 7px;
+  border: 1px solid #2682ac;
+  border-radius: 14px;
+  background: #09233b;
+  text-align: center;
+}
+
+.flow-node > span { display: block; font-size: 38px; color: var(--cyan); margin-bottom: 12px; }
+.flow-node b { display: block; font-size: 11px; }
+.flow-node small { display: block; margin-top: 7px; color: var(--muted); font-size: 10px; }
+
+.pipe {
+  flex: 0 0 38px;
+  height: 10px;
+  border-radius: 20px;
+  background: repeating-linear-gradient(90deg, #0754a5 0 9px, #23e9ff 9px 18px);
+  background-size: 36px;
+  box-shadow: 0 0 13px #23e9ff90;
+  animation: flow .7s linear infinite;
+}
+
+.diagram-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--muted);
+}
+
+.diagram-footer span:first-child { color: var(--green); }
+
+/* SMART MONITOR */
+
+.monitor-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+  margin-bottom: 18px;
+  border: 1px solid #20658a;
+  border-radius: 13px;
+  background: #0a2239;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.monitor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.muted { color: var(--muted); font-size: 13px; }
+.fine { color: var(--muted); font-size: 12px; }
+
+.statuses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; margin: 25px 0; }
+
+.status {
+  text-align: center;
+  padding: 13px 3px;
+  border: 1px solid #29475e;
+  border-radius: 9px;
+  color: #728b9e;
+  background: #081b2d;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.status.green.active { color: var(--green); border-color: var(--green); background: #173b1d; box-shadow: 0 0 20px #a5ff3830; }
+.status.yellow.active { color: var(--yellow); border-color: var(--yellow); background: #40370d; box-shadow: 0 0 20px #ffe45130; }
+.status.red.active { color: var(--red); border-color: var(--red); background: #421722; box-shadow: 0 0 20px #ff536d30; }
+
+.sensor-box, .result {
+  border: 1px solid #1b5c83;
+  border-radius: 12px;
+  background: #09243b;
+  padding: 20px;
+}
+
+.sensor-box { text-align: center; }
+.sensor-box small, .result small { color: var(--muted); font-size: 10px; letter-spacing: 1px; }
+.sensor-box strong { display: block; color: var(--cyan); font-size: 48px; margin-top: 6px; }
+.sensor-box em { font-size: 17px; font-style: normal; }
+
+.range-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 25px 0 12px;
+  color: #c6d9e8;
+  font-size: 12px;
+}
+
+.range-label b { color: var(--cyan); white-space: nowrap; }
+
+input[type="range"] {
+  display: block;
+  width: 100%;
+  accent-color: var(--cyan);
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 19px;
+  padding: 14px;
+  border: 1px solid #235c79;
+  border-radius: 10px;
+  background: #102b36;
+  color: var(--cyan);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.message.warning { color: var(--yellow); background: #352d0e; border-color: #766021; }
+.message.danger { color: var(--red); background: #381523; border-color: #8e3449; }
+.message.success { color: var(--green); background: #102d20; border-color: #397a47; }
+
+.tank-wrap { display: grid; place-items: center; padding: 25px 0 10px; }
+
+.tank {
+  position: relative;
+  width: 140px;
+  height: 178px;
+  border: 3px solid #64c8f2;
+  border-top-width: 8px;
+  border-radius: 10px 10px 23px 23px;
+  background: #030d19;
+  overflow: hidden;
+  box-shadow: 0 0 25px #23e9ff30, inset 0 0 22px #23e9ff20;
+}
+
+.tank-water {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 64%;
+  background: linear-gradient(0deg, #0750b7, #00cfff);
+  transition: height .6s ease;
+}
+
+.tank-surface {
+  position: absolute;
+  left: -20%;
+  top: -9px;
+  width: 150%;
+  height: 18px;
+  border-radius: 50%;
+  background: #c6ffff;
+  box-shadow: 0 0 12px #fff;
+  animation: surface 2s ease-in-out infinite alternate;
+}
+
+.tank-water i {
+  position: absolute;
+  bottom: -8px;
+  width: 6px;
+  height: 6px;
+  border: 1px solid white;
+  border-radius: 50%;
+  animation: bubble 3s linear infinite;
+}
+
+.tank-water i:nth-of-type(1) { left: 25%; }
+.tank-water i:nth-of-type(2) { left: 55%; animation-delay: 1s; }
+.tank-water i:nth-of-type(3) { left: 78%; animation-delay: 2s; }
+
+.tank-lines {
+  position: absolute;
+  inset: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 9px;
+  color: #ffffffb5;
+}
+
+.tank-percent { text-align: center; color: var(--cyan); font-size: 43px; font-weight: 900; }
+.tank-percent small { font-size: 21px; }
+
+.gear-wrap { display: grid; place-items: center; height: 195px; }
+
+.gear {
+  font-size: 100px;
+  color: var(--cyan);
+  text-shadow: 0 0 25px #23e9ff80;
+  animation: rotate 14s linear infinite;
+}
+
+.meter { width: 100%; height: 13px; margin-top: 20px; background: #142e43; border-radius: 20px; overflow: hidden; }
+.meter > div { height: 100%; width: 0; border-radius: inherit; background: linear-gradient(90deg, var(--green), var(--yellow)); transition: width .35s, background .35s; }
+
+.safety-strip {
+  margin-top: 20px;
+  border-left: 4px solid var(--cyan);
+  background: #102b36;
+  border-radius: 10px;
+  padding: 19px;
+  color: #c0dce9;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* CALCULATOR */
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+.field { display: block; margin-top: 22px; color: #c6d9e8; font-size: 12px; font-weight: 700; }
+
+input[type="number"] {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin-top: 10px;
+  padding: 14px;
+  border: 1px solid #286080;
+  border-radius: 10px;
+  outline: none;
+  background: #071b30;
+  color: white;
+}
+
+input[type="number"]:focus { border-color: var(--cyan); box-shadow: 0 0 15px #23e9ff25; }
+
+.text-btn {
+  display: inline-block;
+  margin-top: 27px;
+  padding: 12px 16px;
+  background: #0d3049;
+  border: 1px solid #28799d;
+  border-radius: 9px;
+  color: var(--cyan);
+  font-size: 11px;
+  font-weight: 900;
+  transition: .25s;
+}
+
+.text-btn:hover { background: #154c67; transform: translateY(-2px); }
+
+.result { margin-top: 13px; }
+.result strong { display: block; margin-top: 8px; font-size: clamp(27px, 3vw, 39px); color: var(--cyan); }
+
+.formula {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px dashed var(--green);
+  border-radius: 10px;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.allocation { margin-top: 20px; }
+
+.allocation-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 20px; }
+.allocation-grid > div { padding: 18px; background: #09243b; border: 1px solid #205678; border-radius: 12px; }
+.allocation-grid strong { display: block; margin-top: 18px; color: var(--cyan); font-size: 19px; }
+.auto-allocation { padding: 15px 0; font-size: 10px; color: var(--green); font-weight: 900; }
+
+.allocation-bar { display: flex; width: 100%; height: 18px; margin-top: 24px; border-radius: 20px; overflow: hidden; background: #10263b; }
+.allocation-bar span { transition: width .35s; }
+#irrigationBar { background: var(--green); }
+#flushingBar { background: var(--blue); }
+#otherBar { background: var(--yellow); }
+
+/* BUDGET */
+
+.budget-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+
+.budget-inputs label { font-size: 11px; color: #c5d9e8; font-weight: 700; }
+.budget-inputs input { margin-top: 9px; }
+
+.cap { font-size: clamp(37px, 4vw, 55px); font-weight: 900; color: var(--cyan); margin: 12px 0 25px; }
+.budget-stat { padding: 21px 0; border-top: 1px solid var(--border); }
+.budget-stat small { display: block; font-size: 11px; color: var(--muted); letter-spacing: 1px; }
+.budget-stat strong { display: block; margin-top: 8px; font-size: 33px; }
+.budget-percent { color: var(--cyan); margin-top: 12px; font-size: 11px; font-weight: 900; }
+
+/* IMPACT */
+
+.scale-card { text-align: center; }
+.scale-card > div { font-size: 62px; color: var(--cyan); text-shadow: 0 0 25px #23e9ff60; margin: 20px 0; animation: float 4s infinite; }
+.scale-card h3 { font-size: 17px; }
+
+.sdg-banner {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-top: 35px;
+  padding: 36px;
+  border: 1px solid var(--cyan);
+  border-radius: 20px;
+  background: linear-gradient(110deg, #075b85, #06324d);
+}
+
+.sdg-tile {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 145px;
+  border-radius: 14px;
+  background: #00a8d4;
+  color: white;
+}
+
+.sdg-tile strong { font-size: 76px; line-height: 1; }
+.sdg-tile small { text-align: center; font-size: 10px; font-weight: 900; }
+.sdg-banner h2 { position: relative; z-index: 1; font-size: clamp(28px, 4vw, 49px); margin: 10px 0; }
+.sdg-banner p { position: relative; z-index: 1; color: #d0e9f4; max-width: 650px; }
+.sdg-orb { position: absolute; right: -80px; bottom: -130px; width: 330px; height: 330px; border: 25px solid #23e9ff30; border-radius: 50%; box-shadow: 0 0 80px #23e9ff30; }
+
+.safety-notice {
+  margin-top: 26px;
+  padding: 24px;
+  border-left: 4px solid var(--yellow);
+  border-radius: 12px;
+  background: #332c0d;
+}
+
+.safety-notice h3 { color: var(--yellow); font-size: 15px; }
+.safety-notice p { color: #e5d9a8; font-size: 13px; }
+
+footer { text-align: center; padding: 50px 20px; background: #050d18; border-top: 1px solid var(--border); }
+footer h3 { font-size: 15px; letter-spacing: 2px; }
+footer p, footer small { color: var(--muted); font-size: 12px; }
+
+#backToTop {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 90;
+  width: 45px;
+  height: 45px;
+  border: 1px solid var(--cyan);
+  border-radius: 12px;
+  background: #09283e;
+  color: var(--cyan);
+  font-size: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: .3s;
+}
+
+#backToTop.show { opacity: 1; visibility: visible; transform: translateY(0); }
+
+/* ANIMATIONS */
+
+@keyframes entrance { from { opacity: 0; transform: translateY(35px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes float { 50% { transform: translateY(-20px); } }
+@keyframes pulse { 50% { opacity: .35; transform: scale(.75); } }
+@keyframes glow { 50% { transform: scale(1.25); opacity: .55; } }
+@keyframes ripple { 0%,100% { transform: scale(.9); opacity: .35; } 50% { transform: scale(1.08); opacity: 1; } }
+@keyframes rotate { to { transform: rotate(360deg); } }
+@keyframes flow { to { background-position: 36px 0; } }
+@keyframes falling { 0% { translate: 0 -30px; opacity: 0; } 15% { opacity: .85; } 85% { opacity: .8; } 100% { translate: 45px 1000px; opacity: 0; } }
+@keyframes wave { to { transform: translateX(-40%) rotate(8deg); } }
+@keyframes bubble { to { transform: translateY(-120px); opacity: 0; } }
+@keyframes surface { to { transform: translateX(10%) scaleY(.75); } }
+
+/* RESPONSIVE */
+
+@media (max-width: 1150px) {
+  .navbar nav { gap: 11px; }
+  .navbar nav a { font-size: 10px; }
+  .feature-grid, .stage-grid, .scale-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .monitor-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .monitor-grid > .panel:first-child { grid-column: 1 / -1; }
+}
+
+@media (max-width: 850px) {
+  .menu-btn { display: block; margin-left: auto; }
+  .navbar nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 20px 6%;
+    background: #061729;
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .navbar nav.open { display: flex; }
+  .navbar nav a { font-size: 14px; padding: 13px; }
+  .hero-layout { grid-template-columns: 1fr; }
+  .hero { padding-top: 65px; }
+  .water-universe { max-width: 430px; margin: 30px auto; }
+  .hero-flow { margin-top: 15px; }
+  .flow-diagram { flex-wrap: wrap; justify-content: center; }
+  .flow-node { flex: 0 0 135px; }
+  .two-col { grid-template-columns: 1fr; }
+  .allocation-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .navbar { padding: 10px 4%; }
+  .logo { font-size: 22px; }
+  .nav-cta { display: none; }
+  .hero { padding: 60px 5% 110px; }
+  .hero h1 { font-size: clamp(62px, 14vw, 95px); }
+  .hero-actions { flex-direction: column; }
+  .hero-actions a { text-align: center; }
+  .floating-label { font-size: 8px; padding: 8px; }
+  .hero-flow { gap: 8px; }
+  .hero-flow > div { min-width: 130px; flex: 1; }
+  .hero-flow i { display: none; }
+  .section { padding: 65px 5%; }
+  .feature-grid, .stage-grid, .scale-grid, .monitor-grid { grid-template-columns: 1fr; }
+  .monitor-grid > .panel:first-child { grid-column: auto; }
+  .budget-inputs { grid-template-columns: 1fr; }
+  .panel { padding: 19px; }
+  .flow-node { flex-basis: 115px; }
+  .pipe { flex-basis: 18px; }
+  .flow-node b { font-size: 9px; }
+  .sdg-banner { flex-direction: column; align-items: flex-start; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
