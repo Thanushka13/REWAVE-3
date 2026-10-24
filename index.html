@@ -1,1229 +1,433 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#030711">
-
-<title>REWAVE — Every Drop Deserves Another Purpose</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REWAVE | Every Drop Deserves Another Purpose</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
 
-<!-- NAVIGATION -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-drop">◆</div>
+  <strong>REWAVE</strong>
+  <small>INITIALIZING WATER SYSTEM</small>
+</div>
 
 <header class="navbar">
+  <a class="logo" href="#home"><span>◈</span> REWAVE</a>
 
-<a href="#home" class="logo">
-<span class="logo-symbol">◈</span> REWAVE
-</a>
+  <button id="menuBtn" class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
 
-<nav>
-<a href="#home">Home</a>
-<a href="#why">Why REWAVE</a>
-<a href="#technology">Technology</a>
-<a href="#monitor">Smart Monitor</a>
-<a href="#calculator">Calculator</a>
-<a href="#budget">Budget</a>
-<a href="#impact">Impact</a>
-</nav>
+  <nav id="navigation">
+    <a href="#why">Why REWAVE</a>
+    <a href="#technology">Technology</a>
+    <a href="#monitor">Smart Monitor</a>
+    <a href="#calculator">Calculator</a>
+    <a href="#budget">Budget</a>
+    <a href="#impact">Impact</a>
+  </nav>
 
-<a href="#technology" class="nav-button">
-EXPLORE SYSTEM ↗
-</a>
-
+  <a class="nav-cta" href="#monitor">LAUNCH MONITOR ↗</a>
 </header>
 
+<main>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 
 <section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div id="dropletField" class="droplet-field" aria-hidden="true"></div>
 
-<div class="hero-background"></div>
+  <div class="hero-layout">
+    <div class="hero-content">
+      <div class="eyebrow"><i class="pulse"></i> STUDENT INNOVATION · SDG 06</div>
 
-<!-- Animated water droplets -->
+      <h1>RE<span>WAVE</span><svg class="title-drop" viewBox="0 0 100 130" aria-label="Water drop"><defs><linearGradient id="smallDrop" x2="1" y2="1"><stop stop-color="#e0ffff"/><stop offset=".5" stop-color="#23e9ff"/><stop offset="1" stop-color="#147bff"/></linearGradient></defs><path fill="url(#smallDrop)" d="M50 3C35 31 8 61 8 83a42 42 0 0 0 84 0C92 61 65 31 50 3Z"/></svg></h1>
 
-<div class="droplets">
-<span class="droplet d1"></span>
-<span class="droplet d2"></span>
-<span class="droplet d3"></span>
-<span class="droplet d4"></span>
-<span class="droplet d5"></span>
-<span class="droplet d6"></span>
-<span class="droplet d7"></span>
-<span class="droplet d8"></span>
-<span class="droplet d9"></span>
-<span class="droplet d10"></span>
-<span class="droplet d11"></span>
-<span class="droplet d12"></span>
-</div>
+      <h2>Every Drop Deserves<br><em>Another Purpose.</em></h2>
 
-<!-- Glowing particles -->
+      <p>REWAVE is a proposed greywater-reuse system that collects lightly used water from washbasins and showers, applies suitable treatment and quality checks, and redirects suitable water towards approved non-drinking uses.</p>
 
-<div class="particles">
-<span></span><span></span><span></span>
-<span></span><span></span><span></span>
-<span></span><span></span><span></span>
-<span></span><span></span><span></span>
-</div>
+      <div class="hero-actions">
+        <a class="btn primary" href="#technology">EXPLORE THE TECHNOLOGY ↗</a>
+        <a class="btn secondary" href="#monitor">LAUNCH SMART MONITOR →</a>
+      </div>
 
-<div class="hero-layout">
+      <div class="hero-tags">
+        <span>◈ COLLEGE CAMPUSES</span>
+        <span>◈ HOSTELS</span>
+        <span>◈ LOCAL COMMUNITIES</span>
+      </div>
+    </div>
 
-<div class="hero-content">
+    <div class="water-universe" aria-label="Animated water visualization">
+      <div class="water-glow"></div>
+      <div class="water-ring ring1"></div>
+      <div class="water-ring ring2"></div>
+      <div class="water-ring ring3"></div>
+      <div class="water-ring ring4"></div>
 
-<div class="eyebrow">
-<span class="pulse-dot"></span>
-STUDENT INNOVATION PROJECT · SDG 06
-</div>
+      <div class="orbit-dot dot1"></div>
+      <div class="orbit-dot dot2"></div>
 
-<h1 class="hero-title">
-REWAVE<span class="title-drop">💧</span>
-</h1>
+      <svg class="main-drop" viewBox="0 0 100 130" aria-hidden="true">
+        <defs>
+          <linearGradient id="mainGradient" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#e0ffff"/>
+            <stop offset=".35" stop-color="#23e9ff"/>
+            <stop offset=".75" stop-color="#147bff"/>
+            <stop offset="1" stop-color="#073383"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#mainGradient)" d="M50 3C35 31 8 61 8 83a42 42 0 0 0 84 0C92 61 65 31 50 3Z"/>
+        <path d="M30 72q-8 20 4 30" stroke="white" stroke-width="5" opacity=".65" fill="none" stroke-linecap="round"/>
+      </svg>
 
-<h2>
-Every Drop Deserves<br>
-<span>Another Purpose.</span>
-</h2>
+      <div class="floating-label label1">● SMART WATER RECOVERY</div>
+      <div class="floating-label label2">◈ CIRCULAR WATER SYSTEM</div>
+      <div class="floating-label label3">SDG 06 / FUTURE READY</div>
+    </div>
+  </div>
 
-<p class="hero-description">
-REWAVE is a proposed water-reuse system that collects lightly
-used water from washbasins and showers, treats it through
-suitable filtration and quality checks, and redirects it
-towards approved non-drinking applications.
-</p>
+  <div class="hero-flow">
+    <div><small>STAGE 01</small><strong>COLLECT</strong></div>
+    <i></i>
+    <div><small>STAGE 02</small><strong>FILTER</strong></div>
+    <i></i>
+    <div><small>STAGE 03</small><strong>CHECK</strong></div>
+    <i></i>
+    <div><small>STAGE 04</small><strong>REUSE</strong></div>
+  </div>
 
-<div class="hero-buttons">
-
-<a href="#technology" class="primary-button">
-EXPLORE THE TECHNOLOGY ↗
-</a>
-
-<a href="#monitor" class="secondary-button">
-VIEW SMART MONITOR
-</a>
-
-</div>
-
-<div class="hero-tags">
-<span>◈ COLLEGE CAMPUSES</span>
-<span>◈ HOSTELS</span>
-<span>◈ LOCAL COMMUNITIES</span>
-</div>
-
-</div>
-
-
-<!-- ANIMATED WATER GRAPHIC -->
-
-<div class="water-universe">
-
-<div class="water-glow"></div>
-
-<div class="water-ring ring1"></div>
-<div class="water-ring ring2"></div>
-<div class="water-ring ring3"></div>
-<div class="water-ring ring4"></div>
-
-<div class="orbit-dot orbit-dot1"></div>
-<div class="orbit-dot orbit-dot2"></div>
-
-<div class="main-water-drop">
-<svg viewBox="0 0 200 260" aria-label="Glowing water drop">
-<defs>
-<linearGradient id="dropGradient" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#d7ffff"/>
-<stop offset="35%" stop-color="#32eaff"/>
-<stop offset="70%" stop-color="#087eff"/>
-<stop offset="100%" stop-color="#07349b"/>
-</linearGradient>
-</defs>
-
-<path d="M100 8 C82 47 23 109 23 159 A77 77 0 0 0 177 159 C177 109 118 47 100 8Z"
-fill="url(#dropGradient)"/>
-
-<path d="M70 102 Q45 145 55 177"
-fill="none"
-stroke="#ffffff"
-stroke-width="8"
-stroke-linecap="round"
-opacity=".55"/>
-</svg>
-</div>
-
-<div class="floating-info info1">
-● SMART WATER RECOVERY
-</div>
-
-<div class="floating-info info2">
-◈ CIRCULAR WATER SYSTEM
-</div>
-
-<div class="floating-info info3">
-SDG 06
-</div>
-
-</div>
-
-</div>
-
-
-<!-- MOVING WATER FLOW -->
-
-<div class="hero-flow">
-
-<div class="flow-stage">
-<small>STAGE 01</small>
-<strong>COLLECT</strong>
-</div>
-
-<div class="flow-arrow">➜</div>
-
-<div class="flow-stage">
-<small>STAGE 02</small>
-<strong>FILTER</strong>
-</div>
-
-<div class="flow-arrow">➜</div>
-
-<div class="flow-stage">
-<small>STAGE 03</small>
-<strong>CHECK</strong>
-</div>
-
-<div class="flow-arrow">➜</div>
-
-<div class="flow-stage">
-<small>STAGE 04</small>
-<strong>REUSE</strong>
-</div>
-
-</div>
-
-<div class="hero-water-bottom">
-<div class="wave wave1"></div>
-<div class="wave wave2"></div>
-</div>
-
+  <div class="hero-waves"><div></div><div></div></div>
 </section>
-
 
 <!-- WHY REWAVE -->
 
 <section class="section" id="why">
+  <div class="section-heading reveal">
+    <span class="kicker">01 / THE OPPORTUNITY</span>
+    <h2>WHY <span>REWAVE?</span></h2>
+    <p>Making every suitable litre count through thoughtful local-scale water reuse.</p>
+  </div>
 
-<div class="section-heading">
+  <div class="feature-grid">
+    <article class="feature reveal" style="--accent:#147bff">
+      <div class="feature-icon">◉</div>
+      <small>01 / CONSERVE</small>
+      <h3>Freshwater Conservation</h3>
+      <p>Explore reducing freshwater demand through appropriately treated water for approved non-potable applications.</p>
+    </article>
 
-<span class="section-number">01 / THE OPPORTUNITY</span>
+    <article class="feature reveal" style="--accent:#a5ff38">
+      <div class="feature-icon">↻</div>
+      <small>02 / RECOVER</small>
+      <h3>Reduced Wastage</h3>
+      <p>Investigate recovering suitable lightly used water instead of automatically discarding it.</p>
+    </article>
 
-<h2>WHY <span>REWAVE?</span></h2>
+    <article class="feature reveal" style="--accent:#ffe451">
+      <div class="feature-icon">⚙</div>
+      <small>03 / MAINTAIN</small>
+      <h3>Practical Maintenance</h3>
+      <p>Consider accessible filters, routine inspection, replacement schedules and appropriate testing.</p>
+    </article>
 
-<p>
-Rethinking water consumption through responsible recovery,
-resource efficiency and local innovation.
-</p>
-
-</div>
-
-<div class="feature-grid">
-
-<article class="feature-card feature-blue">
-<div class="feature-icon">💧</div>
-<div class="feature-index">01</div>
-<h3>Freshwater Conservation</h3>
-<p>
-Explore reducing freshwater demand by using appropriately
-treated water for suitable non-potable applications.
-</p>
-<div class="feature-line"></div>
-</article>
-
-<article class="feature-card feature-green">
-<div class="feature-icon">♻️</div>
-<div class="feature-index">02</div>
-<h3>Reduced Wastage</h3>
-<p>
-Investigate how recoverable lightly used water can be
-redirected towards another useful purpose.
-</p>
-<div class="feature-line"></div>
-</article>
-
-<article class="feature-card feature-yellow">
-<div class="feature-icon">⚙️</div>
-<div class="feature-index">03</div>
-<h3>Practical Maintenance</h3>
-<p>
-Consider filter accessibility, inspection, appropriate
-testing and ongoing operational requirements.
-</p>
-<div class="feature-line"></div>
-</article>
-
-<article class="feature-card feature-cyan">
-<div class="feature-icon">🏙️</div>
-<div class="feature-index">04</div>
-<h3>Local Implementation</h3>
-<p>
-A modular concept that can be evaluated for college
-campuses, hostels and local communities.
-</p>
-<div class="feature-line"></div>
-</article>
-
-</div>
-
+    <article class="feature reveal" style="--accent:#23e9ff">
+      <div class="feature-icon">⌘</div>
+      <small>04 / ADAPT</small>
+      <h3>Local Implementation</h3>
+      <p>A modular concept designed for evaluation in college campuses, hostels and communities.</p>
+    </article>
+  </div>
 </section>
 
-
-<!-- HOW IT WORKS -->
-
-<section class="section technology-section" id="technology">
-
-<div class="section-heading">
-
-<span class="section-number">02 / SYSTEM ARCHITECTURE</span>
-
-<h2>THE WATER <span>JOURNEY.</span></h2>
-
-<p>
-Four interconnected stages designed around responsible
-collection, treatment, checking and reuse.
-</p>
-
-</div>
-
-
-<div class="process-grid">
-
-<div class="process-card">
-
-<div class="process-number">01</div>
-
-<div class="process-icon">🚿</div>
-
-<h3>COLLECT</h3>
-
-<p>
-Separate plumbing collects lightly used washbasin
-and shower water.
-</p>
-
-<div class="process-bottom">GREYWATER COLLECTION</div>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="process-number">02</div>
-
-<div class="process-icon">🧰</div>
-
-<h3>FILTER</h3>
-
-<p>
-Screening and suitable filtration media remove
-particles as part of the treatment process.
-</p>
-
-<div class="process-bottom">SUITABLE TREATMENT</div>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="process-number">03</div>
-
-<div class="process-icon">📡</div>
-
-<h3>CHECK</h3>
-
-<p>
-Sensors and appropriate water-quality tests help
-determine whether further treatment is needed.
-</p>
-
-<div class="process-bottom">QUALITY ASSESSMENT</div>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="process-number">04</div>
-
-<div class="process-icon">🌱</div>
-
-<h3>REUSE</h3>
-
-<p>
-Suitable treated water is stored separately
-for approved non-potable applications.
-</p>
-
-<div class="process-bottom">RESPONSIBLE REUSE</div>
-
-</div>
-
-</div>
-
-
-<!-- ANIMATED SYSTEM DIAGRAM -->
-
-<div class="system-panel">
-
-<div class="panel-header">
-
-<div>
-<span class="section-number">SYSTEM VISUALISATION</span>
-<h3>REWAVE FLOW ENGINE</h3>
-</div>
-
-<span class="demo-label">
-● CONCEPTUAL ANIMATION
-</span>
-
-</div>
-
-
-<div class="system-diagram">
-
-<div class="system-node">
-
-<div class="node-symbol">🚿</div>
-
-<strong>GREYWATER</strong>
-
-<small>Separate inlet</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">🛢️</div>
-
-<strong>COLLECTION TANK</strong>
-
-<small>Temporary storage</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">🧰</div>
-
-<strong>TREATMENT</strong>
-
-<small>Suitable processes</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">📟</div>
-
-<strong>QUALITY CHECK</strong>
-
-<small>Test or divert</small>
-
-</div>
-
-
-<div class="water-pipe">
-<div class="moving-water"></div>
-</div>
-
-
-<div class="system-node">
-
-<div class="node-symbol">🌿</div>
-
-<strong>REUSE OUTLET</strong>
-
-<small>Approved uses</small>
-
-</div>
-
-</div>
-
-
-<div class="diagram-footer">
-
-<span>● WATER FLOW VISUALISATION</span>
-
-<span>CONCEPTUAL DESIGN · NOT MEASURED PERFORMANCE</span>
-
-</div>
-
-</div>
-
+<!-- TECHNOLOGY -->
+
+<section class="section" id="technology">
+  <div class="section-heading reveal">
+    <span class="kicker">02 / SYSTEM ARCHITECTURE</span>
+    <h2>THE WATER <span>JOURNEY.</span></h2>
+    <p>Four interconnected stages. One proposed circular-water system.</p>
+  </div>
+
+  <div class="stage-grid">
+    <article class="stage reveal">
+      <small>STAGE 01</small><div class="stage-icon">⇣</div>
+      <h3>COLLECT</h3>
+      <p>Separate plumbing collects suitable lightly used washbasin and shower water.</p>
+    </article>
+    <article class="stage reveal">
+      <small>STAGE 02</small><div class="stage-icon">▥</div>
+      <h3>FILTER</h3>
+      <p>Screening and suitable filtration media remove particles as part of the treatment process.</p>
+    </article>
+    <article class="stage reveal">
+      <small>STAGE 03</small><div class="stage-icon">⌁</div>
+      <h3>CHECK</h3>
+      <p>Sensors and appropriate water-quality tests help determine whether further treatment is needed.</p>
+    </article>
+    <article class="stage reveal">
+      <small>STAGE 04</small><div class="stage-icon">↗</div>
+      <h3>REUSE</h3>
+      <p>Suitable treated water is stored separately for approved non-potable applications.</p>
+    </article>
+  </div>
+
+  <div class="panel diagram-panel reveal">
+    <div class="panel-header">
+      <div><span class="kicker">ANIMATED SYSTEM BLUEPRINT</span><h3>REWAVE FLOW ENGINE</h3></div>
+      <span class="chip">● CONCEPT SIMULATION</span>
+    </div>
+
+    <div class="flow-diagram">
+      <div class="flow-node"><span>⇣</span><b>GREYWATER</b><small>Separate inlet</small></div>
+      <div class="pipe"></div>
+      <div class="flow-node"><span>▤</span><b>COLLECTION TANK</b><small>Temporary storage</small></div>
+      <div class="pipe"></div>
+      <div class="flow-node"><span>▥</span><b>TREATMENT UNIT</b><small>Suitable processes</small></div>
+      <div class="pipe"></div>
+      <div class="flow-node"><span>⌁</span><b>QUALITY CHECK</b><small>Test or divert</small></div>
+      <div class="pipe"></div>
+      <div class="flow-node"><span>↗</span><b>REUSE OUTLET</b><small>Approved uses</small></div>
+    </div>
+
+    <div class="diagram-footer">
+      <span>● ANIMATED CONCEPTUAL WATER FLOW</span>
+      <span>NOT AN ENGINEERING CERTIFICATION</span>
+    </div>
+  </div>
 </section>
-
 
 <!-- SMART MONITOR -->
 
 <section class="section" id="monitor">
-
-<div class="section-heading">
-
-<span class="section-number">03 / INTERACTIVE DEMONSTRATION</span>
-
-<h2>REWAVE <span>SMART MONITOR.</span></h2>
-
-<p>
-A visual demonstration of a proposed water-monitoring interface.
-All displayed readings are simulated, not live sensor data.
-</p>
-
-</div>
-
-
-<div class="monitor-banner">
-
-<div>
-<span class="pulse-dot"></span>
-SIMULATION DASHBOARD
-</div>
-
-<span class="demo-label">
-SIMULATED DATA · NOT LIVE
-</span>
-
-</div>
-
-
-<div class="monitor-grid">
-
-
-<!-- QUALITY STATUS -->
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ QUALITY STATUS</span>
-
-<span class="tiny-tag">DEMO</span>
-
-</div>
-
-<p class="muted">
-Illustrative alert indicators. Colour does not certify water safety.
-</p>
-
-
-<div class="quality-status">
-
-<label class="quality-option green-status">
-<input type="radio" name="quality" checked>
-<span>● GREEN</span>
-</label>
-
-<label class="quality-option yellow-status">
-<input type="radio" name="quality">
-<span>● YELLOW</span>
-</label>
-
-<label class="quality-option red-status">
-<input type="radio" name="quality">
-<span>● RED</span>
-</label>
-
-</div>
-
-
-<div class="sensor-reading">
-
-<small>EXAMPLE TURBIDITY READING</small>
-
-<div class="large-reading">
-2.5 <span>NTU</span>
-</div>
-
-</div>
-
-<label class="input-label" for="turbidity">
-Explore simulated turbidity
-</label>
-
-<input type="range" id="turbidity" min="0" max="20" value="2.5" step="0.1">
-
-<div class="scale-labels">
-<span>0 NTU</span>
-<span>20 NTU</span>
-</div>
-
-<div class="dashboard-message">
-The example value above is fixed. The slider is a visual-only HTML/CSS control.
-</div>
-
-</div>
-
-
-<!-- TANK LEVEL -->
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ STORAGE MONITOR</span>
-
-<span class="tiny-tag">SIMULATED</span>
-
-</div>
-
-<p class="muted">
-Animated conceptual tank-level indicator.
-</p>
-
-
-<div class="tank-container">
-
-<div class="tank">
-
-<div class="tank-water">
-
-<div class="tank-wave"></div>
-
-<div class="water-bubbles">
-<i></i><i></i><i></i><i></i><i></i>
-</div>
-
-</div>
-
-<div class="tank-markings">
-<span>100%</span>
-<span>75%</span>
-<span>50%</span>
-<span>25%</span>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="tank-reading">
-64<span>%</span>
-</div>
-
-<p class="tank-caption">ILLUSTRATIVE STORAGE LEVEL</p>
-
-<div class="tank-status">
-● SIMULATED STORAGE VISUAL
-</div>
-
-</div>
-
-
-<!-- FILTER MAINTENANCE -->
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ FILTER HEALTH</span>
-
-<span class="tiny-tag">SIMULATED</span>
-
-</div>
-
-<p class="muted">
-Example maintenance tracking interface.
-</p>
-
-<div class="filter-animation">
-<div class="filter-outer">
-<div class="filter-inner">⚙</div>
-</div>
-</div>
-
-<div class="filter-reading">
-
-<strong>190</strong>
-
-<span>EXAMPLE OPERATING HOURS</span>
-
-</div>
-
-<div class="filter-progress">
-<div></div>
-</div>
-
-<div class="maintenance-alert">
-
-<span>⚠</span>
-
-<div>
-<strong>MAINTENANCE REMINDER</strong>
-<p>Regular inspection and replacement schedules are required.</p>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="monitor-disclaimer">
-
-<strong>IMPORTANT:</strong>
-The green, yellow and red controls are an interface demonstration only.
-Turbidity alone cannot establish microbiological safety or suitability
-for reuse. Actual monitoring requires appropriate treatment, testing
-and validated operating procedures.
-
-</div>
-
+  <div class="section-heading reveal">
+    <span class="kicker">03 / INTERACTIVE DEMONSTRATION</span>
+    <h2>REWAVE <span>SMART MONITOR.</span></h2>
+    <p>Adjust the controls to explore a fictional monitoring scenario.</p>
+  </div>
+
+  <div class="monitor-banner">
+    <span><i class="pulse"></i> SYSTEM DEMONSTRATION</span>
+    <span class="chip">SIMULATED DATA · NOT LIVE SENSOR READINGS</span>
+  </div>
+
+  <div class="monitor-grid">
+    <article class="panel reveal">
+      <div class="panel-header"><h3>QUALITY STATUS</h3><span class="mini-chip">DEMO</span></div>
+      <p class="muted">Illustrative alert bands, not certified reuse-safety thresholds.</p>
+
+      <div class="statuses" aria-live="polite">
+        <div id="statusGreen" class="status green active">● GREEN</div>
+        <div id="statusYellow" class="status yellow">● YELLOW</div>
+        <div id="statusRed" class="status red">● RED</div>
+      </div>
+
+      <div class="sensor-box">
+        <small>SIMULATED TURBIDITY</small>
+        <strong><span id="turbidityValue">2.5</span> <em>NTU</em></strong>
+      </div>
+
+      <label class="range-label" for="turbidity">Adjust turbidity <b>0–20 NTU</b></label>
+      <input id="turbidity" type="range" min="0" max="20" step=".1" value="2.5">
+      <div id="qualityMessage" class="message" aria-live="polite"></div>
+      <p class="fine">Turbidity alone cannot establish microbiological safety or suitability for reuse.</p>
+    </article>
+
+    <article class="panel reveal">
+      <div class="panel-header"><h3>STORAGE LEVEL</h3><span class="mini-chip">SIMULATED</span></div>
+      <p class="muted">Animated conceptual storage tank.</p>
+
+      <div class="tank-wrap">
+        <div class="tank">
+          <div id="tankWater" class="tank-water">
+            <div class="tank-surface"></div><i></i><i></i><i></i>
+          </div>
+          <div class="tank-lines"><span>100</span><span>75</span><span>50</span><span>25</span></div>
+        </div>
+      </div>
+
+      <div class="tank-percent"><span id="tankValue">64</span><small>%</small></div>
+      <label class="range-label" for="tankSlider">Adjust tank level <b>0–100%</b></label>
+      <input id="tankSlider" type="range" min="0" max="100" value="64">
+      <div id="tankMessage" class="message"></div>
+    </article>
+
+    <article class="panel reveal">
+      <div class="panel-header"><h3>FILTER HEALTH</h3><span class="mini-chip">SIMULATED</span></div>
+      <p class="muted">Illustrative operating-hours tracker.</p>
+
+      <div class="gear-wrap"><div class="gear">⚙</div></div>
+      <div class="tank-percent"><span id="filterValue">190</span><small>h</small></div>
+
+      <label class="range-label" for="filterSlider">Operating hours <b>0–500 h</b></label>
+      <input id="filterSlider" type="range" min="0" max="500" step="10" value="190">
+
+      <div class="meter"><div id="filterBar"></div></div>
+      <div id="filterAlert" class="message" aria-live="polite"></div>
+    </article>
+  </div>
+
+  <div class="safety-strip">⚠ Monitor alerts and maintenance timing are demonstration rules only. Actual reuse decisions require suitable treatment, appropriate testing and site-specific validation.</div>
 </section>
-
 
 <!-- WATER CALCULATOR -->
 
-<section class="section calculator-section" id="calculator">
-
-<div class="section-heading">
-
-<span class="section-number">04 / RESOURCE MODELLING</span>
-
-<h2>WATER-SAVING <span>CALCULATOR.</span></h2>
-
-<p>
-An illustrative planning interface for estimating recoverable
-water using collection and treatment assumptions.
-</p>
-
-</div>
-
-
-<div class="calculator-grid">
-
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ INPUT PARAMETERS</span>
-
-<span class="tiny-tag">EDITABLE</span>
-
-</div>
-
-
-<div class="input-group">
-
-<label for="daily-water">AVAILABLE GREYWATER (L/DAY)</label>
-
-<input type="number" id="daily-water" value="12000" min="0">
-
-</div>
-
-
-<div class="input-group">
-
-<label for="efficiency">COLLECTION EFFICIENCY (%)</label>
-
-<input type="number" id="efficiency" value="80" min="0" max="100">
-
-</div>
-
-
-<div class="input-group">
-
-<label for="recovery">TREATMENT RECOVERY (%)</label>
-
-<input type="number" id="recovery" value="75" min="0" max="100">
-
-</div>
-
-
-<div class="input-group">
-
-<label for="days">OPERATING DAYS PER YEAR</label>
-
-<input type="number" id="days" value="300" min="1" max="366">
-
-</div>
-
-<div class="calculator-note">
-Editable planning inputs. Automatic recalculation requires JavaScript
-or a backend.
-</div>
-
-</div>
-
-
-<!-- RESULTS -->
-
-<div class="dashboard-card result-card">
-
-<div class="card-heading">
-
-<span>◈ EXAMPLE OUTPUT</span>
-
-<span class="tiny-tag">ILLUSTRATIVE</span>
-
-</div>
-
-
-<div class="result-box">
-
-<span>ESTIMATED DAILY RECOVERABLE WATER</span>
-
-<strong>7,200 <small>L</small></strong>
-
-</div>
-
-
-<div class="result-box">
-
-<span>ESTIMATED ANNUAL RECOVERABLE WATER</span>
-
-<strong>21,60,000 <small>L</small></strong>
-
-</div>
-
-
-<div class="result-box">
-
-<span>ANNUAL VOLUME</span>
-
-<strong>2,160 <small>m³</small></strong>
-
-</div>
-
-
-<div class="formula-box">
-
-DAILY RECOVERY = AVAILABLE WATER × COLLECTION EFFICIENCY × TREATMENT RECOVERY
-
-</div>
-
-<p class="muted">
-These example outputs use the original displayed assumptions:
-12,000 L/day × 80% × 75%, over 300 operating days.
-They do not automatically change when the inputs are edited.
-</p>
-
-</div>
-
-</div>
-
-
-<!-- ALLOCATION -->
-
-<div class="allocation-panel">
-
-<div class="panel-header">
-
-<div>
-<span class="section-number">ALLOCATION PLANNING</span>
-<h3>WHERE COULD RECOVERED WATER GO?</h3>
-</div>
-
-<span class="demo-label">EXAMPLE ALLOCATION</span>
-
-</div>
-
-
-<div class="allocation-grid">
-
-
-<div class="allocation-card">
-
-<div class="allocation-icon">🌱</div>
-
-<h4>IRRIGATION</h4>
-
-<div class="allocation-value">35%</div>
-
-<p>2,520 L/day</p>
-
-<div class="mini-progress">
-<div style="width:35%;background:#A5FF38"></div>
-</div>
-
-</div>
-
-
-<div class="allocation-card">
-
-<div class="allocation-icon">🚽</div>
-
-<h4>TOILET FLUSHING</h4>
-
-<div class="allocation-value">50%</div>
-
-<p>3,600 L/day</p>
-
-<div class="mini-progress">
-<div style="width:50%;background:#147BFF"></div>
-</div>
-
-</div>
-
-
-<div class="allocation-card">
-
-<div class="allocation-icon">🔄</div>
-
-<h4>OTHER APPROVED USES</h4>
-
-<div class="allocation-value">15%</div>
-
-<p>1,080 L/day</p>
-
-<div class="mini-progress">
-<div style="width:15%;background:#FFE451"></div>
-</div>
-
-</div>
-
-</div>
-
-
-<div class="allocation-visual">
-
-<div class="allocation-green"></div>
-<div class="allocation-blue"></div>
-<div class="allocation-yellow"></div>
-
-</div>
-
-<p class="muted">
-Example allocation only. Permissible applications depend on treatment
-requirements, local standards and site-specific assessment.
-</p>
-
-</div>
-
+<section class="section" id="calculator">
+  <div class="section-heading reveal">
+    <span class="kicker">04 / RESOURCE MODELLING</span>
+    <h2>WATER-SAVING <span>CALCULATOR.</span></h2>
+    <p>Adjust assumptions and watch the estimated results update instantly.</p>
+  </div>
+
+  <div class="two-col">
+    <div class="panel reveal">
+      <div class="panel-header"><h3>INPUT PARAMETERS</h3><span class="mini-chip">LIVE CALCULATION</span></div>
+
+      <label class="field" for="availableWater">Available greywater (L/day)
+        <input id="availableWater" type="number" min="0" max="1000000" value="12000">
+      </label>
+
+      <label class="range-label" for="collection">Collection efficiency <b><span id="collectionValue">80</span>%</b></label>
+      <input id="collection" type="range" min="0" max="100" value="80">
+
+      <label class="range-label" for="recovery">Treatment recovery <b><span id="recoveryValue">75</span>%</b></label>
+      <input id="recovery" type="range" min="0" max="100" value="75">
+
+      <label class="range-label" for="days">Operating days per year <b><span id="daysValue">300</span></b></label>
+      <input id="days" type="range" min="1" max="366" value="300">
+
+      <button id="resetCalc" class="text-btn" type="button">↺ RESET ASSUMPTIONS</button>
+    </div>
+
+    <div class="panel results reveal">
+      <div class="panel-header"><h3>ESTIMATED RECOVERY</h3><span class="mini-chip">THEORETICAL</span></div>
+
+      <div class="result"><small>DAILY RECOVERABLE WATER</small><strong id="dailyResult">7,200 L</strong></div>
+      <div class="result"><small>ANNUAL RECOVERABLE WATER</small><strong id="annualResult">21,60,000 L</strong></div>
+      <div class="result"><small>ANNUAL VOLUME</small><strong id="cubicResult">2,160 m³</strong></div>
+
+      <div class="formula">AVAILABLE × COLLECTION EFFICIENCY × TREATMENT RECOVERY</div>
+      <p class="fine">Outputs are scenario estimates, not measured performance. Actual results depend on treatment validation, downtime and site conditions.</p>
+    </div>
+  </div>
+
+  <div class="panel allocation reveal">
+    <div class="panel-header">
+      <div><span class="kicker">DYNAMIC ALLOCATION</span><h3>WHERE COULD THE WATER GO?</h3></div>
+      <span class="chip">TOTAL ALWAYS 100%</span>
+    </div>
+
+    <div class="allocation-grid">
+      <div>
+        <label class="range-label" for="irrigation">◉ Irrigation <b><span id="irrigationValue">35</span>%</b></label>
+        <input id="irrigation" type="range" min="0" max="100" value="35">
+        <strong id="irrigationLitres">2,520 L/day</strong>
+      </div>
+
+      <div>
+        <label class="range-label" for="flushing">▣ Toilet flushing <b><span id="flushingValue">50</span>%</b></label>
+        <input id="flushing" type="range" min="0" max="100" value="50">
+        <strong id="flushingLitres">3,600 L/day</strong>
+      </div>
+
+      <div>
+        <div class="range-label">↻ Other approved uses <b><span id="otherValue">15</span>%</b></div>
+        <div class="auto-allocation">AUTOMATIC REMAINING ALLOCATION</div>
+        <strong id="otherLitres">1,080 L/day</strong>
+      </div>
+    </div>
+
+    <div class="allocation-bar">
+      <span id="irrigationBar"></span>
+      <span id="flushingBar"></span>
+      <span id="otherBar"></span>
+    </div>
+    <p class="fine">The allocation cannot exceed 100%. Permitted applications depend on suitable treatment and local requirements.</p>
+  </div>
 </section>
 
-
-<!-- BUDGET PLANNER -->
+<!-- BUDGET -->
 
 <section class="section" id="budget">
+  <div class="section-heading reveal">
+    <span class="kicker">05 / FINANCIAL MODELLING</span>
+    <h2>REWAVE <span>BUDGET PLANNER.</span></h2>
+    <p>Edit preliminary estimates against an illustrative ₹30 lakh planning cap.</p>
+  </div>
 
-<div class="section-heading">
+  <div class="two-col">
+    <div class="panel reveal">
+      <div class="panel-header"><h3>EDIT COST ESTIMATES</h3><span class="mini-chip">₹ INR</span></div>
+      <div id="budgetInputs" class="budget-inputs"></div>
+      <button id="resetBudget" class="text-btn" type="button">↺ RESET BUDGET</button>
+    </div>
 
-<span class="section-number">05 / FINANCIAL PLANNING</span>
+    <div class="panel budget-summary reveal">
+      <span class="kicker">ILLUSTRATIVE PLANNING CAP</span>
+      <div class="cap">₹30,00,000</div>
 
-<h2>REWAVE <span>BUDGET PLANNER.</span></h2>
+      <div class="budget-stat"><small>ESTIMATED TOTAL</small><strong id="budgetTotal">₹28,20,000</strong></div>
+      <div class="budget-stat"><small>REMAINING / OVER CAP</small><strong id="budgetRemaining">₹1,80,000</strong></div>
 
-<p>
-Editable preliminary cost assumptions against an illustrative
-₹30 lakh planning cap.
-</p>
+      <div class="meter budget-meter"><div id="budgetBar"></div></div>
+      <div id="budgetPercent" class="budget-percent">94% OF CAP USED</div>
+      <div id="budgetStatus" class="message" aria-live="polite"></div>
 
-</div>
-
-
-<div class="budget-grid">
-
-
-<div class="dashboard-card">
-
-<div class="card-heading">
-
-<span>◈ COST ESTIMATOR</span>
-
-<span class="tiny-tag">PRELIMINARY</span>
-
-</div>
-
-
-<div class="budget-input-grid">
-
-<div class="input-group">
-<label>SEPARATE PLUMBING</label>
-<input type="number" value="500000" min="0">
-</div>
-
-<div class="input-group">
-<label>COLLECTION & STORAGE TANKS</label>
-<input type="number" value="420000" min="0">
-</div>
-
-<div class="input-group">
-<label>FILTERS & TREATMENT</label>
-<input type="number" value="560000" min="0">
-</div>
-
-<div class="input-group">
-<label>SENSORS</label>
-<input type="number" value="170000" min="0">
-</div>
-
-<div class="input-group">
-<label>CONTROLLERS & DISPLAY</label>
-<input type="number" value="140000" min="0">
-</div>
-
-<div class="input-group">
-<label>INSTALLATION</label>
-<input type="number" value="390000" min="0">
-</div>
-
-<div class="input-group">
-<label>WATER TESTING</label>
-<input type="number" value="210000" min="0">
-</div>
-
-<div class="input-group">
-<label>INITIAL MAINTENANCE</label>
-<input type="number" value="180000" min="0">
-</div>
-
-<div class="input-group">
-<label>CONTINGENCY</label>
-<input type="number" value="250000" min="0">
-</div>
-
-</div>
-
-<p class="muted">
-All amounts are editable illustrative estimates in Indian rupees.
-The summary shows the initial example scenario.
-</p>
-
-</div>
-
-
-<!-- BUDGET SUMMARY -->
-
-<div class="dashboard-card budget-summary">
-
-<span class="section-number">ILLUSTRATIVE PLANNING CAP</span>
-
-<h2>₹30,00,000</h2>
-
-
-<div class="budget-stat">
-
-<span>EXAMPLE ESTIMATED TOTAL</span>
-
-<strong>₹28,20,000</strong>
-
-</div>
-
-
-<div class="budget-stat">
-
-<span>EXAMPLE REMAINING AMOUNT</span>
-
-<strong class="green-text">₹1,80,000</strong>
-
-</div>
-
-
-<div class="budget-progress">
-
-<div></div>
-
-</div>
-
-
-<div class="budget-indicator">
-94% OF ILLUSTRATIVE PLANNING CAP
-</div>
-
-
-<div class="budget-success">
-✓ The initial example scenario is within the illustrative cap.
-</div>
-
-
-<p class="muted">
-These figures are preliminary placeholders, not vendor quotations.
-Editing the cost fields does not automatically update the displayed
-total in this HTML/CSS-only version.
-</p>
-
-</div>
-
-</div>
-
+      <p class="fine">Preliminary placeholders only, not supplier quotations. Include design review, treatment validation and ongoing operational requirements in actual planning.</p>
+    </div>
+  </div>
 </section>
 
-
-<!-- SCALE UP -->
+<!-- IMPACT -->
 
 <section class="section" id="impact">
+  <div class="section-heading reveal">
+    <span class="kicker">06 / FUTURE VISION</span>
+    <h2>START SMALL. <span>THINK BIG.</span></h2>
+    <p>Potential scale-up after successful technical validation, maintenance planning and necessary approvals.</p>
+  </div>
 
-<div class="section-heading">
+  <div class="scale-grid">
+    <article class="scale-card reveal"><small>PHASE 01</small><div>⌂</div><h3>ONE HOSTEL</h3><p>Investigate a manageable pilot and local demand.</p></article>
+    <article class="scale-card reveal"><small>PHASE 02</small><div>▣</div><h3>ONE CAMPUS</h3><p>Evaluate expansion to additional buildings.</p></article>
+    <article class="scale-card reveal"><small>PHASE 03</small><div>▦</div><h3>MULTIPLE CAMPUSES</h3><p>Explore replication of a validated system.</p></article>
+    <article class="scale-card reveal"><small>PHASE 04</small><div>◎</div><h3>LOCAL COMMUNITIES</h3><p>Consider context-specific implementation partnerships.</p></article>
+  </div>
 
-<span class="section-number">06 / FUTURE VISION</span>
+  <div class="sdg-banner reveal">
+    <div class="sdg-tile"><strong>06</strong><small>CLEAN WATER<br>AND SANITATION</small></div>
+    <div>
+      <span class="kicker">UNITED NATIONS SUSTAINABLE DEVELOPMENT GOAL 6</span>
+      <h2>CLEAN WATER.<br>STRONGER COMMUNITIES.</h2>
+      <p>REWAVE explores responsible water reuse, resource efficiency, transparent monitoring and locally appropriate sustainability.</p>
+    </div>
+    <div class="sdg-orb"></div>
+  </div>
 
-<h2>START SMALL. <span>THINK BIG.</span></h2>
-
-<p>
-A potential progression following successful technical validation,
-appropriate treatment, monitoring and necessary approvals.
-</p>
-
-</div>
-
-
-<div class="scale-grid">
-
-
-<div class="scale-card">
-
-<span class="scale-number">01</span>
-
-<div class="scale-icon">🏠</div>
-
-<h3>ONE HOSTEL</h3>
-
-<p>Assess demand and investigate pilot feasibility.</p>
-
-</div>
-
-
-<div class="scale-card">
-
-<span class="scale-number">02</span>
-
-<div class="scale-icon">🏫</div>
-
-<h3>ONE CAMPUS</h3>
-
-<p>Explore expansion across multiple campus buildings.</p>
-
-</div>
-
-
-<div class="scale-card">
-
-<span class="scale-number">03</span>
-
-<div class="scale-icon">🏢</div>
-
-<h3>MULTIPLE CAMPUSES</h3>
-
-<p>Investigate replication of validated modules.</p>
-
-</div>
-
-
-<div class="scale-card">
-
-<span class="scale-number">04</span>
-
-<div class="scale-icon">🌍</div>
-
-<h3>LOCAL COMMUNITIES</h3>
-
-<p>Consider context-specific implementation partnerships.</p>
-
-</div>
-
-</div>
-
-
-<!-- SDG 6 BANNER -->
-
-<div class="sdg-banner">
-
-<div class="sdg-icon">
-<span>06</span>
-<small>CLEAN WATER<br>AND SANITATION</small>
-</div>
-
-<div class="sdg-content">
-
-<span class="section-number">UNITED NATIONS SUSTAINABLE DEVELOPMENT GOAL 6</span>
-
-<h2>CLEAN WATER.<br>STRONGER COMMUNITIES.</h2>
-
-<p>
-REWAVE explores responsible water reuse, resource efficiency,
-transparent monitoring and locally appropriate sustainability.
-</p>
-
-</div>
-
-<div class="sdg-decoration">💧</div>
-
-</div>
-
-
-<!-- SAFETY NOTICE -->
-
-<div class="safety-notice">
-
-<h3>⚠ WATER SAFETY & VALIDATION</h3>
-
-<p>
-Basic filtration alone cannot guarantee microbiological safety.
-Recovered water must receive appropriate treatment and testing
-for its intended reuse. Unsuitable water must be diverted rather
-than reused, and non-potable plumbing must remain separate from
-drinking-water systems. REWAVE is a student innovation concept,
-not a certified treatment system.
-</p>
-
-</div>
-
+  <div class="safety-notice reveal">
+    <h3>⚠ WATER SAFETY & VALIDATION</h3>
+    <p>Basic filtration alone cannot guarantee microbiological safety. Recovered water must be appropriately treated and tested for its intended reuse. Unsuitable water must be diverted rather than reused, and non-potable plumbing must remain separate from drinking-water systems. REWAVE is a student innovation concept, not a certified water-treatment system.</p>
+  </div>
 </section>
 
-
-<!-- FOOTER -->
+</main>
 
 <footer>
-
-<div class="footer-logo">◈ REWAVE</div>
-
-<h3>EVERY DROP DESERVES ANOTHER PURPOSE.</h3>
-
-<p>
-A student innovation concept aligned with SDG 6.
-</p>
-
-<div class="footer-links">
-
-<a href="#home">HOME</a>
-<a href="#technology">TECHNOLOGY</a>
-<a href="#monitor">MONITOR</a>
-<a href="#calculator">CALCULATOR</a>
-<a href="#budget">BUDGET</a>
-
-</div>
-
-<small>
-All sensor readings, financial estimates and performance figures
-are illustrative and not measured results.
-</small>
-
+  <a class="logo" href="#home"><span>◈</span> REWAVE</a>
+  <h3>EVERY DROP DESERVES ANOTHER PURPOSE.</h3>
+  <p>A student innovation concept aligned with SDG 6.</p>
+  <small>All readings, costs and recovery estimates are simulated or illustrative, not measured project results.</small>
 </footer>
+
+<button id="backToTop" aria-label="Back to top">↑</button>
 
 </body>
 </html>
